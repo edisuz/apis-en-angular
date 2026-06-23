@@ -1,0 +1,5 @@
+<h2>Posts</h2>
+
+<ul class="list-group" *ngFor="let item of postService.posts">
+    <li class="list-group-item">{{item.id}} - {{item.title}}</li>
+</ul>
